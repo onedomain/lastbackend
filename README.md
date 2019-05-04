@@ -83,7 +83,7 @@ Our team use swagger for generation API documentation. To create swagger spec, j
 You can use REST API in these options:
 
 - directly with CURL or another apps
-- using Last.Backend CLI (located in separate repo [lastbackend/cli](https://github.com/lastbackend/cli))
+- using Last.Backend CLI (located in separate repo [lastbackend/cli](https://github.com/onedomain/cli))
 - for building custom go apps - you can use golang client located in `pgk/api/client` package
 
 ## Current state
@@ -103,12 +103,12 @@ All of these functionality is under active test now, so don't surprised by frequ
 Join us in Gitter [![Gitter](https://badges.gitter.im/lastbackend/lastbackend.svg)](https://gitter.im/lastbackend/lastbackend?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 This project has [Roadmap](ROADMAP.md), feel free to offer your features. 
 
-We are actively searching for contributors! If you want to help our project and to make developers life easier, please read our **[Contibuting guideliness](http://docs.lastbackend.com/#_contributing)**.
+We are actively searching for contributors! If you want to help our project and to make developers life easier, please read our **[Contibuting guideliness](http://docs.0xqi.com/#_contributing)**.
 
 
 ## How to get started
 
-If you want to dive into project, the best place to start - is our **[documentation](http://docs.lastbackend.com/#_getting_started)**.
+If you want to dive into project, the best place to start - is our **[documentation](http://docs.0xqi.com/#_getting_started)**.
 
 
 ## Maintainers
@@ -132,12 +132,12 @@ Join us on social media:
  - [Stackshare](https://stackshare.io/last-backend/last-backend)
  - [AngelList](https://angel.co/last-backend)
  - [LinkedIn](https://www.linkedin.com/company/last-backend)
- - [question@lastbackend.com](mailto:question@lastbackend.com)
+ - [question@0xqi.com](mailto:question@0xqi.com)
 
 
 ### Repository owners
 
-The repository is owned by Last.Backend LLC company.
+The repository is owned by KULADO INC. company.
 
 The main contributors are:
 - Alexander: https://github.com/undassa

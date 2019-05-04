@@ -15,7 +15,7 @@ etcd:
 # Domain
 domain:
   internal: "lb.local"
-  external: "undassa.lbdp.io"
+  external: "portal.0xqi.com"
 
 server:
   host: 0.0.0.0

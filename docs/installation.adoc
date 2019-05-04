@@ -63,7 +63,7 @@ Use this type of installation if you want to:
 - Focus on apps development speed without worrying for delivery process.
 - Have high availability cluster, managed by Last.Backend team
 
-You can request for your dedicated cluster on control panel(soon) or by email: mailto:request@lastbackend.com[request@lastbackend.com]
+You can request for your dedicated cluster on control panel(soon) or by email: mailto:request@0xqi.com[request@0xqi.com]
 
 === Provider Hosted Installation
 Provider Hosted installation is a convenient way to create and maintain Last.Backend cluster for teams and companies in one click
@@ -73,5 +73,5 @@ Use this type of installation if you want to:
 - Focus on apps development speed without worrying for delivery process.
 - Have high availability cluster, managed by providers
 
-Now we are in integration stage with a lot of different hosting providers across the globe. For more information you can contact us: mailto:partners@lastbackend.com[partners@lastbackend.com]
+Now we are in integration stage with a lot of different hosting providers across the globe. For more information you can contact us: mailto:partners@0xqi.com[partners@0xqi.com]
 

@@ -1,19 +1,19 @@
 //
-// Last.Backend LLC CONFIDENTIAL
+// KULADO INC. CONFIDENTIAL
 // __________________
 //
-// [2014] - [2019] Last.Backend LLC
+// [2014] - [2019] KULADO INC.
 // All Rights Reserved.
 //
 // NOTICE:  All information contained herein is, and remains
-// the property of Last.Backend LLC and its suppliers,
+// the property of KULADO INC. and its suppliers,
 // if any.  The intellectual and technical concepts contained
-// herein are proprietary to Last.Backend LLC
+// herein are proprietary to KULADO INC.
 // and its suppliers and may be covered by Russian Federation and Foreign Patents,
 // patents in process, and are protected by trade secret or copyright law.
 // Dissemination of this information or reproduction of this material
 // is strictly forbidden unless prior written permission is obtained
-// from Last.Backend LLC.
+// from KULADO INC..
 //
 
 package route_test
@@ -328,7 +328,7 @@ func TestRouteCreate(t *testing.T) {
 	r0 := getRouteAsset(ns1.Meta.Name, "route-0")
 	mf0 := getRouteManifest(r0.Meta.Name, sv1.Meta.Name)
 	mf0.Spec.Port = 1080
-	mf0.Spec.Endpoint = "lastbackend.com"
+	mf0.Spec.Endpoint = "0xqi.com"
 	mf0.SetRouteSpec(r0, ns1, sl)
 	mf0s, _ := mf0.ToJson()
 
@@ -359,7 +359,7 @@ func TestRouteCreate(t *testing.T) {
 	// check successful creation
 	r5 := getRouteAsset(ns1.Meta.Name, "route-5")
 	mf5 := getRouteManifest(r5.Meta.Name, sv1.Meta.Name)
-	mf5.Spec.Endpoint = "lstbknd.net"
+	mf5.Spec.Endpoint = "0xqi.com"
 	mf5.Spec.Port = 2080
 	mf5.SetRouteSpec(r5, ns1, sl)
 	mf5s, _ := mf5.ToJson()
@@ -571,11 +571,11 @@ func TestRouteUpdate(t *testing.T) {
 
 	r0 := getRouteAsset(ns1.Meta.Name, "initial-0")
 	r0.Spec.Port = 1080
-	r0.Spec.Endpoint = "lstbknd.net"
+	r0.Spec.Endpoint = "0xqi.com"
 
 	r1 := getRouteAsset(ns1.Meta.Name, "initial-1")
 	r1.Spec.Port = 1000
-	r1.Spec.Endpoint = "lastbackend.com"
+	r1.Spec.Endpoint = "0xqi.com"
 
 	// route not exists
 	r2 := getRouteAsset(ns1.Meta.Name, "demo")

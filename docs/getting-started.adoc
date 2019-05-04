@@ -9,7 +9,7 @@ There is multiple ways you can use to start with Last.Backend:
 
 === Ready to go environment
 
-Ready-to-go environment is available on https://cloud.lastbackend.com control panel for your experiments.
+Ready-to-go environment is available on https://cloud.0xqi.com control panel for your experiments.
 In our control plane you can create new cluster, or connect existing cluster.
 
 There are several types of management for cluster connected to control panel:
@@ -30,5 +30,5 @@ This is a good point to start testing, or start contributing.
 
 - hosted version, provisioned with ansible
 Our team prepared ansible roles for deploy last.backend cluster on your favourite environment.
-Ansible roles located at separated repository https://github.com/lastbackend/ansible
+Ansible roles located at separated repository https://github.com/onedomain/ansible
 

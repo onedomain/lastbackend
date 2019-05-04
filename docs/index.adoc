@@ -31,7 +31,7 @@ include::contributing.adoc[]
 ====
 If you have any questions about the *Last.Backend* usage or want to share some information with the *Last.Backend* community, please go to one of the following places:
 
-* mailto:question@lastbackend.com[question@lastbackend.com]
+* mailto:question@0xqi.com[question@0xqi.com]
 * https://twitter.com/LastBackend[twitter @ LastBackend]
 * https://www.facebook.com/lastbackend[facebook]
 

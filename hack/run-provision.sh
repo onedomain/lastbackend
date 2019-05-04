@@ -88,4 +88,4 @@ docker run -d -it --restart=always \
 --privileged \
 --name=node \
 --net=host \
-index.lstbknd.net/lastbackend/lastbackend go run ./cmd/node/node.go -c /etc/lastbackend/config.yml
+kulado.azurecr.io/lastbackend/lastbackend go run ./cmd/node/node.go -c /etc/lastbackend/config.yml

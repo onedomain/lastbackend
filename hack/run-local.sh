@@ -1,14 +1,14 @@
 #!/bin/bash
 
 mode="local"
-src="/opt/src/github.com/lastbackend"
-dst="/go/src/github.com/lastbackend"
+src="/opt/src/github.com/onedomain"
+dst="/go/src/github.com/onedomain"
 
 function host() {
 	if [[ "$mode" == "local" ]]; then
 		eval "$(docker-machine env $1)"
 	else
-		export DOCKER_HOST="$1.lstbknd.net:2376"
+		export DOCKER_HOST="$1.0xqi.com:2376"
 	fi
 }
 

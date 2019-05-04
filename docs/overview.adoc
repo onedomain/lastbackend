@@ -77,7 +77,7 @@ Our team uses swagger as API documentation generator. To create swagger spec, ju
 You can use REST API in these options:
 
 - Directly with CURL or another apps
-- Using Last.Backend CLI located in separate repo lastbackend/cli[https://github.com/lastbackend/cli]
+- Using Last.Backend CLI located in separate repo lastbackend/cli[https://github.com/onedomain/cli]
 - Using golang package, located in `pgk/api/client`. For building custom go apps as example.
 
 === Current state

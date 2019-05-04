@@ -9,8 +9,8 @@ Please add yourself into this list with your pull request.
 
 - undassa
     - Name: Alexander Kaloshin
-    - Email: alexander@lastbackend.com
+    - Email: alexander@0xqi.com
 
 - unloop
     - Name: Konstantin Pastor
-    - Email: konstantin@lastbackend.com
+    - Email: konstantin@0xqi.com

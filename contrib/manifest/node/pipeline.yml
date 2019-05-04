@@ -24,26 +24,26 @@ spec:
           - cd ${GOPATH}/src/github.com/onedomain/lastbackend
           - make deps
           - make test
-      - name: build:hub.lstbknd.net/unloop/lastbackend:master
+      - name: build:kulado.azurecr.io/unloop/lastbackend:master
         container: builder
         commands:
-          - lb build -i hub.lstbknd.net/unloop/lastbackend:master -f ./images/lastbackend/Dockerfile .
-          - lb push hub.lstbknd.net/unloop/lastbackend:master
-      - name: build:hub.lstbknd.net/unloop/discovery:master
+          - lb build -i kulado.azurecr.io/unloop/lastbackend:master -f ./images/lastbackend/Dockerfile .
+          - lb push kulado.azurecr.io/unloop/lastbackend:master
+      - name: build:kulado.azurecr.io/unloop/discovery:master
         container: builder
         commands:
-          - lb build -i hub.lstbknd.net/unloop/discovery:master -f ./images/discovery/Dockerfile .
-          - lb push hub.lstbknd.net/unloop/discovery:master
-      - name: build:hub.lstbknd.net/unloop/ingress:master
+          - lb build -i kulado.azurecr.io/unloop/discovery:master -f ./images/discovery/Dockerfile .
+          - lb push kulado.azurecr.io/unloop/discovery:master
+      - name: build:kulado.azurecr.io/unloop/ingress:master
         container: builder
         commands:
-          - lb build -i hub.lstbknd.net/unloop/ingress:master -f ./images/ingress/Dockerfile .
-          - lb push hub.lstbknd.net/unloop/ingress:master
-      - name: build:hub.lstbknd.net/unloop/exporter:master
+          - lb build -i kulado.azurecr.io/unloop/ingress:master -f ./images/ingress/Dockerfile .
+          - lb push kulado.azurecr.io/unloop/ingress:master
+      - name: build:kulado.azurecr.io/unloop/exporter:master
         container: builder
         commands:
-          - lb build -i hub.lstbknd.net/unloop/exporter:master -f ./images/exporter/Dockerfile .
-          - lb push hub.lstbknd.net/unloop/exporter:master
+          - lb build -i kulado.azurecr.io/unloop/exporter:master -f ./images/exporter/Dockerfile .
+          - lb push kulado.azurecr.io/unloop/exporter:master
   template:
     containers:
       - name: etcd
@@ -93,6 +93,6 @@ spec:
           - name: DOCKER_HOST
             value: tcp://127.0.0.1:2375
         image:
-          name: index.lstbknd.net/lastbackend/builder
+          name: kulado.azurecr.io/lastbackend/builder
     volumes:
       - name: data

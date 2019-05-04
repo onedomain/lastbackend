@@ -11,7 +11,7 @@ description: "lastbackend cluster"
 # System domains settings
 domain:
   internal: "lb.local"
-  external: "undassa.lbdp.io"
+  external: "portal.0xqi.com"
 
 # Etcd database
 storage:

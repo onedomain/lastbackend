@@ -1,7 +1,7 @@
 #!/bin/bash
-docker build -f ./images/plugins/docker/Dockerfile -t index.lstbknd.net/lastbackend/plugin .
+docker build -f ./images/plugins/docker/Dockerfile -t kulado.azurecr.io/lastbackend/plugin .
 
-id=$(docker create index.lstbknd.net/lastbackend/plugin true)
+id=$(docker create kulado.azurecr.io/lastbackend/plugin true)
 mkdir -p ./build/plugins/docker/rootfs
 docker export "$id" | tar -x -C ./build/plugins/docker/rootfs
 cp ./images/plugins/docker/config.json ./build/plugins/docker/config.json

@@ -1,19 +1,19 @@
 //
-// Last.Backend LLC CONFIDENTIAL
+// KULADO INC. CONFIDENTIAL
 // __________________
 //
-// [2014] - [2019] Last.Backend LLC
+// [2014] - [2019] KULADO INC.
 // All Rights Reserved.
 //
 // NOTICE:  All information contained herein is, and remains
-// the property of Last.Backend LLC and its suppliers,
+// the property of KULADO INC. and its suppliers,
 // if any.  The intellectual and technical concepts contained
-// herein are proprietary to Last.Backend LLC
+// herein are proprietary to KULADO INC.
 // and its suppliers and may be covered by Russian Federation and Foreign Patents,
 // patents in process, and are protected by trade secret or copyright law.
 // Dissemination of this information or reproduction of this material
 // is strictly forbidden unless prior written permission is obtained
-// from Last.Backend LLC.
+// from KULADO INC..
 //
 
 // Last.Backend Open-source API
@@ -22,14 +22,14 @@
 //
 // Terms Of Service:
 //
-// https://lastbackend.com/legal/terms/
+// https://0xqi.com/legal/terms/
 //
 //     Schemes: https
-//     Host: api.lastbackend.com
+//     Host: api.0xqi.com
 //     BasePath: /
 //     Version: 0.9.4
 //     License: MIT http://opensource.org/licenses/MIT
-//     Contact: Last.Backend Teams <team@lastbackend.com> https://lastbackend.com
+//     Contact: Last.Backend Teams <team@0xqi.com> https://0xqi.com
 //
 //     Consumes:
 //     - application/json
