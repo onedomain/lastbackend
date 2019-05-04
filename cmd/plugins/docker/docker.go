@@ -22,8 +22,8 @@ import (
 	"os"
 
 	"github.com/docker/go-plugins-helpers/sdk"
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/plugins/docker"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/plugins/docker"
 )
 
 func main() {

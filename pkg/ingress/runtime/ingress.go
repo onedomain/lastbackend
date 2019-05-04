@@ -20,8 +20,8 @@ package runtime
 
 import (
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/util/system"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/util/system"
 	"os"
 )
 

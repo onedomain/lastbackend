@@ -21,8 +21,8 @@ package views
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/api/types/v1/request"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/api/types/v1/request"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 	"strconv"
 )
 

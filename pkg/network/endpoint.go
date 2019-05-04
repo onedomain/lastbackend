@@ -20,10 +20,10 @@ package network
 
 import (
 	"context"
-	"github.com/lastbackend/lastbackend/pkg/network/state"
+	"github.com/onedomain/lastbackend/pkg/network/state"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/log"
 )
 
 const (

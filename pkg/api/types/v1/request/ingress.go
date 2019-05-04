@@ -18,7 +18,7 @@
 
 package request
 
-import "github.com/lastbackend/lastbackend/pkg/distribution/types"
+import "github.com/onedomain/lastbackend/pkg/distribution/types"
 
 // swagger:model request_ingress_connect
 type IngressConnectOptions struct {

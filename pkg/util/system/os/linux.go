@@ -22,7 +22,7 @@ package os
 import (
 	"bytes"
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/util/system/types"
+	"github.com/onedomain/lastbackend/pkg/util/system/types"
 	"os"
 	"os/exec"
 	"runtime"

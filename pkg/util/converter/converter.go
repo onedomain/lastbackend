@@ -82,7 +82,7 @@ func DecodeBase64(s string) string {
 
 // Parse incoming string git url in source type
 // Ex:
-// 	* https://github.com/lastbackend/lastbackend.git
+// 	* https://github.com/onedomain/lastbackend.git
 // 	* git@github.com:lastbackend/lastbackend.git
 func GitUrlParse(url string) (*source, error) {
 

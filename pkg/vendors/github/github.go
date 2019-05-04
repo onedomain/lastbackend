@@ -23,7 +23,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/vendors/types"
+	"github.com/onedomain/lastbackend/pkg/vendors/types"
 	"golang.org/x/oauth2"
 	"io"
 	"net/http"

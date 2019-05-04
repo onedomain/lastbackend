@@ -18,7 +18,7 @@
 
 package views
 
-import "github.com/lastbackend/lastbackend/pkg/distribution/types"
+import "github.com/onedomain/lastbackend/pkg/distribution/types"
 
 type TaskView struct{}
 

@@ -19,9 +19,9 @@
 package runtime
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/exporter/envs"
-	"github.com/lastbackend/lastbackend/pkg/exporter/logger"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/exporter/envs"
+	"github.com/onedomain/lastbackend/pkg/exporter/logger"
+	"github.com/onedomain/lastbackend/pkg/log"
 	"os"
 )
 

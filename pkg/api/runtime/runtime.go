@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lastbackend/lastbackend/pkg/api/envs"
-	"github.com/lastbackend/lastbackend/pkg/distribution"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/api/envs"
+	"github.com/onedomain/lastbackend/pkg/distribution"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 )
 
 type Runtime struct {

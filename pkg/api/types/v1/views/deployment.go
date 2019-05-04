@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"encoding/json"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/log"
 	"io"
 	"io/ioutil"
 )

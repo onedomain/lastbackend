@@ -28,12 +28,12 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/etcdserver/etcdserverpb"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/storage/etcd/store"
-	"github.com/lastbackend/lastbackend/pkg/storage/types"
-	"github.com/lastbackend/lastbackend/pkg/util/converter"
-	"github.com/lastbackend/lastbackend/pkg/util/serializer"
-	"github.com/lastbackend/lastbackend/pkg/util/validator"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/storage/etcd/store"
+	"github.com/onedomain/lastbackend/pkg/storage/types"
+	"github.com/onedomain/lastbackend/pkg/util/converter"
+	"github.com/onedomain/lastbackend/pkg/util/serializer"
+	"github.com/onedomain/lastbackend/pkg/util/validator"
 	"golang.org/x/net/context"
 )
 

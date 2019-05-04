@@ -28,9 +28,9 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/node/envs"
-	"github.com/lastbackend/lastbackend/pkg/util/system"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/node/envs"
+	"github.com/onedomain/lastbackend/pkg/util/system"
 	"github.com/shirou/gopsutil/mem"
 )
 

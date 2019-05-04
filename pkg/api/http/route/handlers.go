@@ -19,18 +19,18 @@
 package route
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/api/http/namespace/namespace"
-	"github.com/lastbackend/lastbackend/pkg/api/http/route/route"
-	"github.com/lastbackend/lastbackend/pkg/api/types/v1"
+	"github.com/onedomain/lastbackend/pkg/api/http/namespace/namespace"
+	"github.com/onedomain/lastbackend/pkg/api/http/route/route"
+	"github.com/onedomain/lastbackend/pkg/api/types/v1"
 
 	"net/http"
 
-	"github.com/lastbackend/lastbackend/pkg/api/envs"
-	"github.com/lastbackend/lastbackend/pkg/distribution"
-	"github.com/lastbackend/lastbackend/pkg/distribution/errors"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/util/http/utils"
+	"github.com/onedomain/lastbackend/pkg/api/envs"
+	"github.com/onedomain/lastbackend/pkg/distribution"
+	"github.com/onedomain/lastbackend/pkg/distribution/errors"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/util/http/utils"
 )
 
 const (

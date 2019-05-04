@@ -20,8 +20,8 @@ package request
 
 import (
 	"encoding/json"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/util/resource"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/util/resource"
 	"gopkg.in/yaml.v2"
 	"time"
 )

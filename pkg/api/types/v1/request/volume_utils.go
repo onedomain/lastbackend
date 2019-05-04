@@ -20,11 +20,11 @@ package request
 
 import (
 	"encoding/json"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 	"io"
 	"io/ioutil"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution/errors"
+	"github.com/onedomain/lastbackend/pkg/distribution/errors"
 )
 
 type VolumeRequest struct{}

@@ -15,7 +15,7 @@ image:assets/preview.png[Last.Backend]
 
 *Last.Backend container management platform is the new and modern open-source container management system with service discovery, overlay networks and more..*
 
-Source code available at https://github.com/lastbackend/lastbackend[lastbackend/lastbackend] GitHub repository.
+Source code available at https://github.com/onedomain/lastbackend[lastbackend/lastbackend] GitHub repository.
 
 include::overview.adoc[]
 include::getting-started.adoc[]
@@ -41,4 +41,4 @@ If you have any questions about the *Last.Backend* usage or want to share some i
 == License
 
 This project is licensed using the  *Apache License Version 2.0*.
-For the full project license, see the https://github.com/lastbackend/lastbackend/blob/master/LICENSE[LICENSE] file.
+For the full project license, see the https://github.com/onedomain/lastbackend/blob/master/LICENSE[LICENSE] file.

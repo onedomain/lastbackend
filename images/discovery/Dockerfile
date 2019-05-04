@@ -20,8 +20,8 @@ ENV GOPATH /go
 ENV GOROOT /usr/local/go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 
-ADD . $GOPATH/src/github.com/lastbackend/lastbackend
-WORKDIR $GOPATH/src/github.com/lastbackend/lastbackend
+ADD . $GOPATH/src/github.com/onedomain/lastbackend
+WORKDIR $GOPATH/src/github.com/onedomain/lastbackend
 
 RUN make APP=discovery build && make APP=discovery install
 RUN apk del --purge .build-deps

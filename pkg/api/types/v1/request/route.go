@@ -21,8 +21,8 @@ package request
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/api/envs"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/api/envs"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 	"gopkg.in/yaml.v2"
 	"strings"
 )

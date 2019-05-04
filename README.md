@@ -1,5 +1,5 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/lastbackend/lastbackend)](https://goreportcard.com/report/github.com/lastbackend/lastbackend)
-[![GoDoc](https://godoc.org/github.com/lastbackend/lastbackend?status.png)](https://godoc.org/github.com/lastbackend/lastbackend)
+[![Go Report Card](https://goreportcard.com/badge/github.com/onedomain/lastbackend)](https://goreportcard.com/report/github.com/onedomain/lastbackend)
+[![GoDoc](https://godoc.org/github.com/onedomain/lastbackend?status.png)](https://godoc.org/github.com/onedomain/lastbackend)
 [![Travis](https://travis-ci.org/lastbackend/lastbackend.svg?branch=master)](https://travis-ci.org/lastbackend/lastbackend)
 [![Gitter](https://badges.gitter.im/lastbackend/lastbackend.svg)](https://gitter.im/lastbackend/lastbackend?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Licensed under Apache License version 2.0](https://img.shields.io/github/license/lastbackend/lastbackend.svg?maxAge=2592000)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -113,7 +113,7 @@ If you want to dive into project, the best place to start - is our **[documentat
 
 ## Maintainers
 
-We have separated [maintainers page](https://github.com/lastbackend/lastbackend/blob/master/MAINTAINERS.md)
+We have separated [maintainers page](https://github.com/onedomain/lastbackend/blob/master/MAINTAINERS.md)
 
 **Note**: Last.Backend is under active development stage and our team is working day and night to make it better.
 Your suggestions, comments and contributions will be very helpful for us!

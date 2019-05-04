@@ -19,8 +19,8 @@
 package views
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/util/resource"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/util/resource"
 	"sort"
 )
 

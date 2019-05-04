@@ -18,7 +18,7 @@
 
 package views
 
-import "github.com/lastbackend/lastbackend/pkg/distribution/types"
+import "github.com/onedomain/lastbackend/pkg/distribution/types"
 
 // Discovery - default node structure
 // swagger:model views_ingress

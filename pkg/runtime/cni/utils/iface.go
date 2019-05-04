@@ -23,9 +23,9 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/log"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution/errors"
+	"github.com/onedomain/lastbackend/pkg/distribution/errors"
 	"github.com/vishvananda/netlink"
 )
 

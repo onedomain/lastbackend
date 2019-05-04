@@ -19,7 +19,7 @@
 package state
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 )
 
 type State struct {

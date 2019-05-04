@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lastbackend/lastbackend/pkg/api/types/v1"
-	"github.com/lastbackend/lastbackend/pkg/discovery/envs"
-	"github.com/lastbackend/lastbackend/pkg/discovery/runtime"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/api/types/v1"
+	"github.com/onedomain/lastbackend/pkg/discovery/envs"
+	"github.com/onedomain/lastbackend/pkg/discovery/runtime"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/log"
 )
 
 const (

@@ -21,7 +21,7 @@ package utils
 import (
 	"fmt"
 	"github.com/coreos/go-iptables/iptables"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/log"
 	"net"
 	"strings"
 	"time"

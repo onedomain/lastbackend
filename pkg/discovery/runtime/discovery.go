@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/util/system"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/util/system"
 )
 
 func (r *Runtime) DiscoveryInfo() types.DiscoveryInfo {

@@ -20,7 +20,7 @@ package etcd
 
 import (
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/storage/types"
+	"github.com/onedomain/lastbackend/pkg/storage/types"
 )
 
 const (

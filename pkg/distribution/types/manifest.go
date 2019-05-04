@@ -19,8 +19,8 @@
 package types
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/util/compare"
-	"github.com/lastbackend/lastbackend/pkg/util/resource"
+	"github.com/onedomain/lastbackend/pkg/util/compare"
+	"github.com/onedomain/lastbackend/pkg/util/resource"
 	"strings"
 	"time"
 )

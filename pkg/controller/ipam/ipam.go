@@ -19,8 +19,8 @@
 package ipam
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/controller/ipam/ipam"
-	"github.com/lastbackend/lastbackend/pkg/controller/ipam/local"
+	"github.com/onedomain/lastbackend/pkg/controller/ipam/ipam"
+	"github.com/onedomain/lastbackend/pkg/controller/ipam/local"
 )
 
 func New(cidr string) (ipam.IPAM, error) {

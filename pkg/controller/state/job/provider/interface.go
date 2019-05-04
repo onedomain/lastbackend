@@ -18,7 +18,7 @@
 
 package provider
 
-import "github.com/lastbackend/lastbackend/pkg/distribution/types"
+import "github.com/onedomain/lastbackend/pkg/distribution/types"
 
 type JobProvider interface {
 	Fetch() (*types.TaskManifest, error)

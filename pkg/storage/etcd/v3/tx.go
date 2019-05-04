@@ -20,8 +20,8 @@ package v3
 
 import (
 	"github.com/coreos/etcd/clientv3"
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/util/serializer"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/util/serializer"
 	"golang.org/x/net/context"
 	"path"
 )

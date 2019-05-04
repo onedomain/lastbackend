@@ -19,13 +19,13 @@
 package request
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/util/compare"
-	"github.com/lastbackend/lastbackend/pkg/util/resource"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/util/compare"
+	"github.com/onedomain/lastbackend/pkg/util/resource"
 	"strings"
 	"time"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 )
 
 type ManifestSpecSelector struct {

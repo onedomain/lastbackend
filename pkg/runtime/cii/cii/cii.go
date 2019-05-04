@@ -20,8 +20,8 @@ package cii
 
 import (
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cii"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cii/docker"
+	"github.com/onedomain/lastbackend/pkg/runtime/cii"
+	"github.com/onedomain/lastbackend/pkg/runtime/cii/docker"
 )
 
 const (

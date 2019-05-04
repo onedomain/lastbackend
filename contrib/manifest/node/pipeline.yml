@@ -11,7 +11,7 @@ spec:
       - etcd
       - dind
     tasks:
-      - name: clone:github.com/lastbackend/lastbackend
+      - name: clone:github.com/onedomain/lastbackend
         container: builder
         commands:
           - lb clone -v github -o lastbackend -n lastbackend -b master /data/
@@ -19,9 +19,9 @@ spec:
         container: test
         commands:
           - apt-get -y install openssl
-          - mkdir -p ${GOPATH}/src/github.com/lastbackend/lastbackend
-          - cp -r /data/. ${GOPATH}/src/github.com/lastbackend/lastbackend
-          - cd ${GOPATH}/src/github.com/lastbackend/lastbackend
+          - mkdir -p ${GOPATH}/src/github.com/onedomain/lastbackend
+          - cp -r /data/. ${GOPATH}/src/github.com/onedomain/lastbackend
+          - cd ${GOPATH}/src/github.com/onedomain/lastbackend
           - make deps
           - make test
       - name: build:hub.lstbknd.net/unloop/lastbackend:master

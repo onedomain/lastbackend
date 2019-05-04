@@ -23,12 +23,12 @@ import (
 	"github.com/spf13/viper"
 	"testing"
 
-	"github.com/lastbackend/lastbackend/pkg/controller/envs"
-	"github.com/lastbackend/lastbackend/pkg/controller/ipam"
-	"github.com/lastbackend/lastbackend/pkg/controller/state/cluster"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/storage"
-	"github.com/lastbackend/lastbackend/pkg/util/generator"
+	"github.com/onedomain/lastbackend/pkg/controller/envs"
+	"github.com/onedomain/lastbackend/pkg/controller/ipam"
+	"github.com/onedomain/lastbackend/pkg/controller/state/cluster"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/storage"
+	"github.com/onedomain/lastbackend/pkg/util/generator"
 	"github.com/stretchr/testify/assert"
 	"time"
 )

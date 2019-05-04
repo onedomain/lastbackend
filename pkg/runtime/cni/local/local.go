@@ -20,9 +20,9 @@ package local
 
 import (
 	"context"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cni"
-	"github.com/lastbackend/lastbackend/pkg/util/system"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/runtime/cni"
+	"github.com/onedomain/lastbackend/pkg/util/system"
 	"net"
 )
 

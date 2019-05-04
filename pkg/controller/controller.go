@@ -24,11 +24,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/lastbackend/lastbackend/pkg/controller/envs"
-	"github.com/lastbackend/lastbackend/pkg/controller/ipam"
-	"github.com/lastbackend/lastbackend/pkg/controller/runtime"
-	l "github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/storage"
+	"github.com/onedomain/lastbackend/pkg/controller/envs"
+	"github.com/onedomain/lastbackend/pkg/controller/ipam"
+	"github.com/onedomain/lastbackend/pkg/controller/runtime"
+	l "github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/storage"
 	"github.com/spf13/viper"
 )
 

@@ -20,9 +20,9 @@
 package cpi
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/runtime/cpi"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cpi/ipvs"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cpi/local"
+	"github.com/onedomain/lastbackend/pkg/runtime/cpi"
+	"github.com/onedomain/lastbackend/pkg/runtime/cpi/ipvs"
+	"github.com/onedomain/lastbackend/pkg/runtime/cpi/local"
 	"github.com/spf13/viper"
 )
 

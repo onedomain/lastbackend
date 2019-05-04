@@ -19,11 +19,11 @@
 package envs
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/network"
+	"github.com/onedomain/lastbackend/pkg/network"
 	"text/template"
 
-	"github.com/lastbackend/lastbackend/pkg/api/client/types"
-	"github.com/lastbackend/lastbackend/pkg/ingress/state"
+	"github.com/onedomain/lastbackend/pkg/api/client/types"
+	"github.com/onedomain/lastbackend/pkg/ingress/state"
 )
 
 var _env Env

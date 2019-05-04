@@ -22,8 +22,8 @@ import (
 	"context"
 	"io"
 
-	rv1 "github.com/lastbackend/lastbackend/pkg/api/types/v1/request"
-	vv1 "github.com/lastbackend/lastbackend/pkg/api/types/v1/views"
+	rv1 "github.com/onedomain/lastbackend/pkg/api/types/v1/request"
+	vv1 "github.com/onedomain/lastbackend/pkg/api/types/v1/views"
 )
 
 type ClientV1 interface {

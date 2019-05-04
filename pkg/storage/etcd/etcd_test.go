@@ -21,9 +21,9 @@ package etcd_test
 import (
 	"testing"
 
-	"github.com/lastbackend/lastbackend/pkg/storage"
-	"github.com/lastbackend/lastbackend/pkg/storage/etcd"
-	"github.com/lastbackend/lastbackend/pkg/storage/etcd/v3"
+	"github.com/onedomain/lastbackend/pkg/storage"
+	"github.com/onedomain/lastbackend/pkg/storage/etcd"
+	"github.com/onedomain/lastbackend/pkg/storage/etcd/v3"
 	"github.com/stretchr/testify/assert"
 )
 

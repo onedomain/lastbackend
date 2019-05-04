@@ -61,7 +61,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/ingress"
+	"github.com/onedomain/lastbackend/pkg/ingress"
 	flag "github.com/spf13/pflag"
 	"github.com/spf13/viper"
 	"strings"

@@ -20,12 +20,12 @@ package controller
 
 import (
 	"context"
-	"github.com/lastbackend/lastbackend/pkg/api/types/v1"
-	"github.com/lastbackend/lastbackend/pkg/api/types/v1/request"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/exporter/envs"
-	"github.com/lastbackend/lastbackend/pkg/exporter/runtime"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/api/types/v1"
+	"github.com/onedomain/lastbackend/pkg/api/types/v1/request"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/exporter/envs"
+	"github.com/onedomain/lastbackend/pkg/exporter/runtime"
+	"github.com/onedomain/lastbackend/pkg/log"
 	"sync"
 	"time"
 )

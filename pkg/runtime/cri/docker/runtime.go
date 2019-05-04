@@ -21,7 +21,7 @@ package docker
 import (
 	"github.com/docker/docker/api"
 	"github.com/docker/docker/client"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/log"
 	"strconv"
 )
 

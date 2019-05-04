@@ -19,14 +19,14 @@
 package events
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/api/envs"
-	"github.com/lastbackend/lastbackend/pkg/api/types/v1"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/util/socket"
+	"github.com/onedomain/lastbackend/pkg/api/envs"
+	"github.com/onedomain/lastbackend/pkg/api/types/v1"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/util/socket"
 	"net/http"
 
 	"github.com/gorilla/websocket"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/log"
 )
 
 const (

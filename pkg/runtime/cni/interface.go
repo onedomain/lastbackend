@@ -20,7 +20,7 @@ package cni
 
 import (
 	"context"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 )
 
 type CNI interface {

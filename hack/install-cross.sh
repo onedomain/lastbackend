@@ -14,7 +14,7 @@ do
     if [[ "$OSTYPE" == "linux-gnu" || "$OSTYPE" == "linux-musl" ]]; then
         mv  build/linux/$i /usr/bin/$i
     elif [[ "$OSTYPE" == "darwin"* ]]; then
-        mv  build/darwin/$i /usr/bin/$i
+        mv  build/darwin/$i /usr/local/bin/$i
     elif [[ "$OSTYPE" == "windows"* ]]; then
         mv  build/windows/$i /usr/bin/$i
     fi

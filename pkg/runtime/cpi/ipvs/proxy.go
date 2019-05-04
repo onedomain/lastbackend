@@ -23,7 +23,7 @@ package ipvs
 import (
 	"context"
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cni/utils"
+	"github.com/onedomain/lastbackend/pkg/runtime/cni/utils"
 	"github.com/spf13/viper"
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
@@ -33,11 +33,11 @@ import (
 	"syscall"
 
 	libipvs "github.com/docker/libnetwork/ipvs"
-	"github.com/lastbackend/lastbackend/pkg/distribution/errors"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cpi"
-	"github.com/lastbackend/lastbackend/pkg/util/network"
+	"github.com/onedomain/lastbackend/pkg/distribution/errors"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/runtime/cpi"
+	"github.com/onedomain/lastbackend/pkg/util/network"
 	"github.com/vishvananda/netlink/nl"
 )
 

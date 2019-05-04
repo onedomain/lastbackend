@@ -19,8 +19,8 @@
 package csi
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/runtime/csi"
-	"github.com/lastbackend/lastbackend/pkg/runtime/csi/dir"
+	"github.com/onedomain/lastbackend/pkg/runtime/csi"
+	"github.com/onedomain/lastbackend/pkg/runtime/csi/dir"
 	"github.com/spf13/viper"
 )
 

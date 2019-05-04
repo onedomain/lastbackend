@@ -22,7 +22,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/util/http/middleware"
+	"github.com/onedomain/lastbackend/pkg/util/http/middleware"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/http"

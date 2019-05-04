@@ -22,13 +22,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution/errors"
+	"github.com/onedomain/lastbackend/pkg/distribution/errors"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/distribution"
+	"github.com/onedomain/lastbackend/pkg/log"
 
-	"github.com/lastbackend/lastbackend/pkg/controller/envs"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/controller/envs"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 )
 
 const (

@@ -10,5 +10,6 @@ fi
 for i in "${arr[@]}"
 do
  echo "Build '$i' version '$VERSION'"
- docker build -t "index.lstbknd.net/lastbackend/$i" -f "./images/$i/Dockerfile" .
+ #docker build -t "index.lstbknd.net/lastbackend/$i" -f "./images/$i/Dockerfile" .
+ docker build -t "kulado.azurecr.io/lastbackend/$i" -f "./images/$i/Dockerfile" .
 done

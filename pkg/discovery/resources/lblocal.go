@@ -24,10 +24,10 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/lastbackend/lastbackend/pkg/discovery/envs"
-	"github.com/lastbackend/lastbackend/pkg/distribution"
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/util"
+	"github.com/onedomain/lastbackend/pkg/discovery/envs"
+	"github.com/onedomain/lastbackend/pkg/distribution"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/util"
 	"github.com/miekg/dns"
 )
 

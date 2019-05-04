@@ -20,9 +20,9 @@ package views
 
 import (
 	"encoding/json"
-	"github.com/lastbackend/lastbackend/pkg/util/resource"
+	"github.com/onedomain/lastbackend/pkg/util/resource"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 )
 
 type NodeView struct{}

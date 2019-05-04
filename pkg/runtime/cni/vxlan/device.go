@@ -21,11 +21,11 @@ package vxlan
 
 import (
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cni/utils"
+	"github.com/onedomain/lastbackend/pkg/runtime/cni/utils"
 	"net"
 	"syscall"
 
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/log"
 	"github.com/vishvananda/netlink"
 )
 

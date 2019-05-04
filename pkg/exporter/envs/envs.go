@@ -19,9 +19,9 @@
 package envs
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/api/client/types"
-	"github.com/lastbackend/lastbackend/pkg/exporter/logger"
-	"github.com/lastbackend/lastbackend/pkg/exporter/state"
+	"github.com/onedomain/lastbackend/pkg/api/client/types"
+	"github.com/onedomain/lastbackend/pkg/exporter/logger"
+	"github.com/onedomain/lastbackend/pkg/exporter/state"
 )
 
 var _env Env

@@ -24,14 +24,14 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/lastbackend/lastbackend/pkg/api/client"
-	"github.com/lastbackend/lastbackend/pkg/exporter/controller"
-	"github.com/lastbackend/lastbackend/pkg/exporter/envs"
-	"github.com/lastbackend/lastbackend/pkg/exporter/http"
-	"github.com/lastbackend/lastbackend/pkg/exporter/logger"
-	"github.com/lastbackend/lastbackend/pkg/exporter/runtime"
-	"github.com/lastbackend/lastbackend/pkg/exporter/state"
-	l "github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/api/client"
+	"github.com/onedomain/lastbackend/pkg/exporter/controller"
+	"github.com/onedomain/lastbackend/pkg/exporter/envs"
+	"github.com/onedomain/lastbackend/pkg/exporter/http"
+	"github.com/onedomain/lastbackend/pkg/exporter/logger"
+	"github.com/onedomain/lastbackend/pkg/exporter/runtime"
+	"github.com/onedomain/lastbackend/pkg/exporter/state"
+	l "github.com/onedomain/lastbackend/pkg/log"
 	"github.com/spf13/viper"
 )
 

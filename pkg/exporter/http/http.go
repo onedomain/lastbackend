@@ -21,10 +21,10 @@ package http
 import (
 	"context"
 	"github.com/gorilla/mux"
-	"github.com/lastbackend/lastbackend/pkg/exporter/http/logs"
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/util/http"
-	"github.com/lastbackend/lastbackend/pkg/util/http/cors"
+	"github.com/onedomain/lastbackend/pkg/exporter/http/logs"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/util/http"
+	"github.com/onedomain/lastbackend/pkg/util/http/cors"
 )
 
 const (

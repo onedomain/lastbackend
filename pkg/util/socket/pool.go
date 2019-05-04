@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/log"
 )
 
 const (

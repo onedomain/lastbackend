@@ -19,7 +19,7 @@
 package store
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/storage/types"
+	"github.com/onedomain/lastbackend/pkg/storage/types"
 	"golang.org/x/net/context"
 )
 

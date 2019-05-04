@@ -20,8 +20,8 @@ package system
 
 import (
 	"errors"
-	_os "github.com/lastbackend/lastbackend/pkg/util/system/os"
-	"github.com/lastbackend/lastbackend/pkg/util/system/types"
+	_os "github.com/onedomain/lastbackend/pkg/util/system/os"
+	"github.com/onedomain/lastbackend/pkg/util/system/types"
 	"net"
 	"os"
 )

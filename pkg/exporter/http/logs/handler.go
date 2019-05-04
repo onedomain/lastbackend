@@ -19,12 +19,12 @@
 package logs
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/util/http/utils"
+	"github.com/onedomain/lastbackend/pkg/util/http/utils"
 	"net/http"
 
-	"github.com/lastbackend/lastbackend/pkg/exporter/envs"
-	"github.com/lastbackend/lastbackend/pkg/exporter/logger"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/exporter/envs"
+	"github.com/onedomain/lastbackend/pkg/exporter/logger"
+	"github.com/onedomain/lastbackend/pkg/log"
 )
 
 const (

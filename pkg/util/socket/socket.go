@@ -20,7 +20,7 @@ package socket
 
 import (
 	"context"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/log"
 	"sync"
 	"time"
 

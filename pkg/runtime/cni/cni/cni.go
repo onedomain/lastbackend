@@ -20,8 +20,8 @@
 package cni
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/runtime/cni"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cni/local"
+	"github.com/onedomain/lastbackend/pkg/runtime/cni"
+	"github.com/onedomain/lastbackend/pkg/runtime/cni/local"
 	"github.com/spf13/viper"
 )
 

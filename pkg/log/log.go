@@ -19,7 +19,7 @@
 package log
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/log/logger"
+	"github.com/onedomain/lastbackend/pkg/log/logger"
 )
 
 var l *logger.Logger

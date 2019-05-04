@@ -25,13 +25,13 @@ import (
 	"syscall"
 	"text/template"
 
-	"github.com/lastbackend/lastbackend/pkg/api/client"
-	"github.com/lastbackend/lastbackend/pkg/ingress/controller"
-	"github.com/lastbackend/lastbackend/pkg/ingress/envs"
-	"github.com/lastbackend/lastbackend/pkg/ingress/runtime"
-	"github.com/lastbackend/lastbackend/pkg/ingress/state"
-	l "github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/network"
+	"github.com/onedomain/lastbackend/pkg/api/client"
+	"github.com/onedomain/lastbackend/pkg/ingress/controller"
+	"github.com/onedomain/lastbackend/pkg/ingress/envs"
+	"github.com/onedomain/lastbackend/pkg/ingress/runtime"
+	"github.com/onedomain/lastbackend/pkg/ingress/state"
+	l "github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/network"
 	"github.com/spf13/viper"
 )
 

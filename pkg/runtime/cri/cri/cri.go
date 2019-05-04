@@ -20,8 +20,8 @@ package cri
 
 import (
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cri"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cri/docker"
+	"github.com/onedomain/lastbackend/pkg/runtime/cri"
+	"github.com/onedomain/lastbackend/pkg/runtime/cri/docker"
 )
 
 const (

@@ -19,11 +19,11 @@
 package http
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/api/client/config"
-	"github.com/lastbackend/lastbackend/pkg/api/client/http/v1"
-	"github.com/lastbackend/lastbackend/pkg/api/client/types"
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/util/http/request"
+	"github.com/onedomain/lastbackend/pkg/api/client/config"
+	"github.com/onedomain/lastbackend/pkg/api/client/http/v1"
+	"github.com/onedomain/lastbackend/pkg/api/client/types"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/util/http/request"
 )
 
 type Client struct {

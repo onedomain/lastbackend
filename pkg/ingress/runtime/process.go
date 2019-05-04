@@ -21,9 +21,9 @@ package runtime
 import (
 	"bytes"
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/ingress/envs"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/ingress/envs"
+	"github.com/onedomain/lastbackend/pkg/log"
 	"io/ioutil"
 	"os"
 	"os/exec"

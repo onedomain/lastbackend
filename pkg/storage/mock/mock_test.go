@@ -21,8 +21,8 @@ package mock_test
 import (
 	"testing"
 
-	"github.com/lastbackend/lastbackend/pkg/storage"
-	"github.com/lastbackend/lastbackend/pkg/storage/mock"
+	"github.com/onedomain/lastbackend/pkg/storage"
+	"github.com/onedomain/lastbackend/pkg/storage/mock"
 	"github.com/stretchr/testify/assert"
 )
 

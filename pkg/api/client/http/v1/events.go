@@ -19,7 +19,7 @@
 package v1
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/util/http/request"
+	"github.com/onedomain/lastbackend/pkg/util/http/request"
 )
 
 type EventsClient struct {

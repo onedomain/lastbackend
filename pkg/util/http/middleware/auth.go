@@ -20,8 +20,8 @@ package middleware
 
 import (
 	"context"
-	"github.com/lastbackend/lastbackend/pkg/distribution/errors"
-	"github.com/lastbackend/lastbackend/pkg/util/http/utils"
+	"github.com/onedomain/lastbackend/pkg/distribution/errors"
+	"github.com/onedomain/lastbackend/pkg/util/http/utils"
 	"net/http"
 	"strings"
 )

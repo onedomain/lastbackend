@@ -20,7 +20,7 @@ package request
 
 import (
 	"encoding/json"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 	"gopkg.in/yaml.v2"
 )
 

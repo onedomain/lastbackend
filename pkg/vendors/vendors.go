@@ -19,9 +19,9 @@
 package vendors
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/vendors/bitbucket"
-	"github.com/lastbackend/lastbackend/pkg/vendors/github"
-	"github.com/lastbackend/lastbackend/pkg/vendors/gitlab"
+	"github.com/onedomain/lastbackend/pkg/vendors/bitbucket"
+	"github.com/onedomain/lastbackend/pkg/vendors/github"
+	"github.com/onedomain/lastbackend/pkg/vendors/gitlab"
 )
 
 func GetGitHub(token string) *github.GitHub {

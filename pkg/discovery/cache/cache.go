@@ -21,7 +21,7 @@ package cache
 import (
 	"time"
 
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/log"
 )
 
 const (

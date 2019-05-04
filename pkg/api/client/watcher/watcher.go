@@ -20,7 +20,7 @@ package watcher
 
 import (
 	"encoding/json"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/log"
 	"io"
 	"sync"
 )

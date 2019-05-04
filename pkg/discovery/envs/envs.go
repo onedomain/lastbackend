@@ -19,10 +19,10 @@
 package envs
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/api/client/types"
-	"github.com/lastbackend/lastbackend/pkg/discovery/cache"
-	"github.com/lastbackend/lastbackend/pkg/discovery/state"
-	"github.com/lastbackend/lastbackend/pkg/storage"
+	"github.com/onedomain/lastbackend/pkg/api/client/types"
+	"github.com/onedomain/lastbackend/pkg/discovery/cache"
+	"github.com/onedomain/lastbackend/pkg/discovery/state"
+	"github.com/onedomain/lastbackend/pkg/storage"
 )
 
 var _env Env

@@ -25,10 +25,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/storage/etcd/store"
-	"github.com/lastbackend/lastbackend/pkg/storage/etcd/v3"
-	"github.com/lastbackend/lastbackend/pkg/storage/types"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/storage/etcd/store"
+	"github.com/onedomain/lastbackend/pkg/storage/etcd/v3"
+	"github.com/onedomain/lastbackend/pkg/storage/types"
 )
 
 const (

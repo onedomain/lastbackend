@@ -19,7 +19,7 @@
 package types_test
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

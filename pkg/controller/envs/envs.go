@@ -19,8 +19,8 @@
 package envs
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/controller/ipam/ipam"
-	"github.com/lastbackend/lastbackend/pkg/storage"
+	"github.com/onedomain/lastbackend/pkg/controller/ipam/ipam"
+	"github.com/onedomain/lastbackend/pkg/storage"
 )
 
 var e Env

@@ -20,7 +20,7 @@ package cri
 
 import (
 	"context"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 	"io"
 	"time"
 )

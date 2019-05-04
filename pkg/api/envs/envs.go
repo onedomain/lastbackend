@@ -19,10 +19,10 @@
 package envs
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/api/cache"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/monitor"
-	"github.com/lastbackend/lastbackend/pkg/storage"
+	"github.com/onedomain/lastbackend/pkg/api/cache"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/monitor"
+	"github.com/onedomain/lastbackend/pkg/storage"
 )
 
 var e Env

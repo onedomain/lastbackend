@@ -18,7 +18,7 @@
 
 package hook
 
-import "github.com/lastbackend/lastbackend/pkg/distribution/types"
+import "github.com/onedomain/lastbackend/pkg/distribution/types"
 
 type Hook interface {
 	Execute(task *types.Task) error

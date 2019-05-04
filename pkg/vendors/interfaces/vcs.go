@@ -19,7 +19,7 @@
 package interfaces
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/vendors/types"
+	"github.com/onedomain/lastbackend/pkg/vendors/types"
 )
 
 type IVCS interface {

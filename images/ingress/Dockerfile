@@ -20,8 +20,8 @@ ENV GOPATH /go
 ENV GOROOT /usr/local/go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 
-ADD . /go/src/github.com/lastbackend/lastbackend
-WORKDIR /go/src/github.com/lastbackend/lastbackend
+ADD . /go/src/github.com/onedomain/lastbackend
+WORKDIR /go/src/github.com/onedomain/lastbackend
 
 RUN make APP=ingress build && make APP=ingress install
 RUN apk del --purge .build-deps

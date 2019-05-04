@@ -19,9 +19,9 @@
 package hook
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/controller/state/job/hook"
-	"github.com/lastbackend/lastbackend/pkg/controller/state/job/hook/http"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/controller/state/job/hook"
+	"github.com/onedomain/lastbackend/pkg/controller/state/job/hook/http"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 )
 
 func New(hook types.JobSpecHook) (hook.Hook, error) {

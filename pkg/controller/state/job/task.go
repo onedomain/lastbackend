@@ -20,16 +20,16 @@ package job
 
 import (
 	"context"
-	"github.com/lastbackend/lastbackend/pkg/distribution/errors"
-	"github.com/lastbackend/lastbackend/pkg/util/generator"
+	"github.com/onedomain/lastbackend/pkg/distribution/errors"
+	"github.com/onedomain/lastbackend/pkg/util/generator"
 	"strings"
 
 	"time"
 
-	"github.com/lastbackend/lastbackend/pkg/controller/envs"
-	"github.com/lastbackend/lastbackend/pkg/distribution"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/controller/envs"
+	"github.com/onedomain/lastbackend/pkg/distribution"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/log"
 )
 
 const logTaskPrefix = "state:observer:task"

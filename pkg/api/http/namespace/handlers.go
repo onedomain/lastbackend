@@ -20,23 +20,23 @@ package namespace
 
 import (
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/api/http/config/config"
-	"github.com/lastbackend/lastbackend/pkg/api/http/job/job"
-	"github.com/lastbackend/lastbackend/pkg/api/http/namespace/namespace"
-	"github.com/lastbackend/lastbackend/pkg/api/http/route/route"
-	"github.com/lastbackend/lastbackend/pkg/api/http/secret/secret"
-	"github.com/lastbackend/lastbackend/pkg/api/http/service/service"
-	"github.com/lastbackend/lastbackend/pkg/api/http/volume/volume"
-	"github.com/lastbackend/lastbackend/pkg/api/types/v1/request"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/api/http/config/config"
+	"github.com/onedomain/lastbackend/pkg/api/http/job/job"
+	"github.com/onedomain/lastbackend/pkg/api/http/namespace/namespace"
+	"github.com/onedomain/lastbackend/pkg/api/http/route/route"
+	"github.com/onedomain/lastbackend/pkg/api/http/secret/secret"
+	"github.com/onedomain/lastbackend/pkg/api/http/service/service"
+	"github.com/onedomain/lastbackend/pkg/api/http/volume/volume"
+	"github.com/onedomain/lastbackend/pkg/api/types/v1/request"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 	"net/http"
 
-	"github.com/lastbackend/lastbackend/pkg/api/envs"
-	v1 "github.com/lastbackend/lastbackend/pkg/api/types/v1"
-	"github.com/lastbackend/lastbackend/pkg/distribution"
-	"github.com/lastbackend/lastbackend/pkg/distribution/errors"
-	"github.com/lastbackend/lastbackend/pkg/log"
-	"github.com/lastbackend/lastbackend/pkg/util/http/utils"
+	"github.com/onedomain/lastbackend/pkg/api/envs"
+	v1 "github.com/onedomain/lastbackend/pkg/api/types/v1"
+	"github.com/onedomain/lastbackend/pkg/distribution"
+	"github.com/onedomain/lastbackend/pkg/distribution/errors"
+	"github.com/onedomain/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/util/http/utils"
 )
 
 const (

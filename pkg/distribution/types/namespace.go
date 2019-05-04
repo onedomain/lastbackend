@@ -20,7 +20,7 @@ package types
 
 import (
 	"encoding/json"
-	"github.com/lastbackend/lastbackend/pkg/distribution/errors"
+	"github.com/onedomain/lastbackend/pkg/distribution/errors"
 )
 
 // swagger:ignore

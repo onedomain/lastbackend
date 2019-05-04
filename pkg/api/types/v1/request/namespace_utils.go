@@ -20,8 +20,8 @@ package request
 
 import (
 	"encoding/json"
-	"github.com/lastbackend/lastbackend/pkg/distribution/errors"
-	"github.com/lastbackend/lastbackend/pkg/util/validator"
+	"github.com/onedomain/lastbackend/pkg/distribution/errors"
+	"github.com/onedomain/lastbackend/pkg/util/validator"
 	"io"
 	"io/ioutil"
 )

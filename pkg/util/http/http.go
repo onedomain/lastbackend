@@ -26,7 +26,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/lastbackend/lastbackend/pkg/util/http/cors"
+	"github.com/onedomain/lastbackend/pkg/util/http/cors"
 )
 
 const (

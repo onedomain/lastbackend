@@ -63,7 +63,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lastbackend/lastbackend/pkg/exporter"
+	"github.com/onedomain/lastbackend/pkg/exporter"
 	flag "github.com/spf13/pflag"
 	"github.com/spf13/viper"
 )

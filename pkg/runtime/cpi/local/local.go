@@ -20,8 +20,8 @@ package local
 
 import (
 	"context"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/runtime/cpi"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/runtime/cpi"
 )
 
 type Proxy struct {

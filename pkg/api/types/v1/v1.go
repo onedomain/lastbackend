@@ -19,8 +19,8 @@
 package v1
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/api/types/v1/request"
-	"github.com/lastbackend/lastbackend/pkg/api/types/v1/views"
+	"github.com/onedomain/lastbackend/pkg/api/types/v1/request"
+	"github.com/onedomain/lastbackend/pkg/api/types/v1/views"
 )
 
 func View() views.IView {

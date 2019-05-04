@@ -19,10 +19,10 @@
 package cache
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/log"
 	"sync"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 )
 
 const logCacheDiscovery = "api:cache:discovery"

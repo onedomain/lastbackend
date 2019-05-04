@@ -18,7 +18,7 @@
 
 package types
 
-import "github.com/lastbackend/lastbackend/pkg/distribution/errors"
+import "github.com/onedomain/lastbackend/pkg/distribution/errors"
 
 const (
 	ErrEntityExists          = errors.ErrEntityExists

@@ -21,7 +21,7 @@ package views
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 )
 
 type EventView struct{}

@@ -19,8 +19,8 @@
 package node
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/util/http"
-	"github.com/lastbackend/lastbackend/pkg/util/http/middleware"
+	"github.com/onedomain/lastbackend/pkg/util/http"
+	"github.com/onedomain/lastbackend/pkg/util/http/middleware"
 )
 
 var Routes = []http.Route{

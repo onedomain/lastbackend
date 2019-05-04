@@ -21,8 +21,8 @@ package docker
 import (
 	"context"
 
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
-	"github.com/lastbackend/lastbackend/pkg/log"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/log"
 
 	d "github.com/docker/docker/api/types"
 )

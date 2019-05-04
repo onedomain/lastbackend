@@ -19,9 +19,9 @@
 package provider
 
 import (
-	"github.com/lastbackend/lastbackend/pkg/controller/state/job/provider"
-	"github.com/lastbackend/lastbackend/pkg/controller/state/job/provider/http"
-	"github.com/lastbackend/lastbackend/pkg/distribution/types"
+	"github.com/onedomain/lastbackend/pkg/controller/state/job/provider"
+	"github.com/onedomain/lastbackend/pkg/controller/state/job/provider/http"
+	"github.com/onedomain/lastbackend/pkg/distribution/types"
 )
 
 func New(specProvider types.JobSpecProvider) (provider.JobProvider, error) {
