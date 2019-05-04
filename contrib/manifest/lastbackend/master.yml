@@ -44,7 +44,7 @@ spec:
     containers:
     - name: api
       image:
-        name: kulado.azurecr.io/lastbackend/lastbackend
+        name: kulado.azurecr.io/onedomain/lastbackend
       ports:
       - "2967/tcp"
       volumes:
@@ -76,7 +76,7 @@ spec:
     containers:
     - name: ctl
       image:
-        name: kulado.azurecr.io/lastbackend/lastbackend
+        name: kulado.azurecr.io/onedomain/lastbackend
       volumes:
       - name: config
         path: "/etc/lastbackend"
@@ -105,7 +105,7 @@ spec:
     containers:
     - name: dns
       image:
-        name: kulado.azurecr.io/lastbackend/lastbackend
+        name: kulado.azurecr.io/onedomain/lastbackend
       ports:
       - "53:53/tcp"
       volumes:

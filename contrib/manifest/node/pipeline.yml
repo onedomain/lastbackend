@@ -93,6 +93,6 @@ spec:
           - name: DOCKER_HOST
             value: tcp://127.0.0.1:2375
         image:
-          name: kulado.azurecr.io/lastbackend/builder
+          name: kulado.azurecr.io/onedomain/builder
     volumes:
       - name: data

@@ -11,5 +11,5 @@ for i in "${arr[@]}"
 do
  echo "Build '$i' version '$VERSION'"
  #docker build -t "index.0xqi.com/lastbackend/$i" -f "./images/$i/Dockerfile" .
- docker build -t "kulado.azurecr.io/lastbackend/$i" -f "./images/$i/Dockerfile" .
+ docker build -t "kulado.azurecr.io/onedomain/$i" -f "./images/$i/Dockerfile" .
 done

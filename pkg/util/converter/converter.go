@@ -83,7 +83,7 @@ func DecodeBase64(s string) string {
 // Parse incoming string git url in source type
 // Ex:
 // 	* https://github.com/onedomain/lastbackend.git
-// 	* git@github.com:lastbackend/lastbackend.git
+// 	* git@github.com:onedomain/lastbackend.git
 func GitUrlParse(url string) (*source, error) {
 
 	var match []string = regexp.MustCompile(`^(?:ssh|git|http(?:s)?)(?:@|:\/\/(?:.+@)?)((\w+)\.\w+)(?:\/|:)(.+)(?:\/)(.+)(?:\..+)$`).FindStringSubmatch(url)

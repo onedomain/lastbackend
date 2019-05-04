@@ -27,22 +27,22 @@ docker run -d -p 4001:4001 -p 2380:2380 -p 2379:2379 \
 docker run -d -it --restart=always \
       --net=host \
       --name=api \
-      kulado.azurecr.io/lastbackend/lastbackend api
+      kulado.azurecr.io/onedomain/lastbackend api
 
 # run Last.Backend Cluster CTL:
 docker run -d -it --restart=always \
       --name=controller \
-      kulado.azurecr.io/lastbackend/lastbackend ctl
+      kulado.azurecr.io/onedomain/lastbackend ctl
 
 # run Last.Backend Cluster DNS:
 docker run -d -it --restart=always \
       --name=discovery \
-      kulado.azurecr.io/lastbackend/discovery
+      kulado.azurecr.io/onedomain/discovery
 
 # run Last.Backend Cluster Exporter:
 docker run -d -it --restart=always \
       --name=exporter \
-      kulado.azurecr.io/lastbackend/exporter
+      kulado.azurecr.io/onedomain/exporter
 
 # run node on minion host
 # enable modprobe ip_vs for internal load balancing
@@ -58,12 +58,12 @@ docker run -d -it --restart=always \
 --privileged \
 --name=node \
 --net=host \
-kulado.azurecr.io/lastbackend/lastbackend node
+kulado.azurecr.io/onedomain/lastbackend node
 
 # run Last.Backend Cluster Ingress:
 docker run -d -it --restart=always \
 --name=ingress \
 --net=host \
-kulado.azurecr.io/lastbackend/ingress
+kulado.azurecr.io/onedomain/ingress
 
 ----
